@@ -12,7 +12,7 @@ final class ConfigProvider extends \Bermuda\Config\ConfigProvider
     protected function getFactories(): array
     {
         return [
-            FilesystemOperator::class => static fn() => OperatorFactory::class
+            FilesystemOperator::class => OperatorFactory::class
         ];
     }
 }
