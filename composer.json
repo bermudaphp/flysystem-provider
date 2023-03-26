@@ -1,0 +1,13 @@
+{
+    "name": "bermudaphp/flysystem-provider",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Bermuda\\Flysystem\\": "src/"
+        }
+    },
+    "require": {
+        "php": "^8.1",
+        "league/flysystem": "^3.12.3"
+    }
+}
