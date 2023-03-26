@@ -4,7 +4,7 @@ namespace Bermuda\Flysystem;
 
 use League\Flysystem\FilesystemOperator;
 
-final class ConfigProvider extends Bermuda\Config\ConfigProvider
+final class ConfigProvider extends \Bermuda\Config\ConfigProvider
 {
     /**
      * @inheritDoc
