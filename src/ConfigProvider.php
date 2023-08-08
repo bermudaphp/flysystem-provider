@@ -14,7 +14,7 @@ use League\Flysystem\WhitespacePathNormalizer;
 use Psr\Container\ContainerInterface;
 use function Bermuda\Config\conf;
 
-final class ConfigProvider extends \Bermuda\Config\ConfigProvider
+class ConfigProvider extends \Bermuda\Config\ConfigProvider
 {
     public const configKey = 'filesystem';
     public const publicUrl = 'publicUrl';
